@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Данные недели</title>
+</head>
+<body>
+{% for date in dates %}
+    <br>{{ date.day }}.{{ date.month }}.{{ date.year }}: номер недели --> {{ date.number_week }}
+{% endfor%}
+
+<br><a href="{% url 'data_weeks_create' %}" class="btn btn-outline-primary">Ввести новую дату</a>
+
+</body>
+</html>
