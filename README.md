@@ -11,7 +11,8 @@ https://www.pythonanywhere.com/
 код должен лежать на github.com
 
 
-# weeks
+# weeks 
+КОД НАХОДИТСЯ В ПАПКЕ WEEKS
 проверяем номер недели https://dep.ru.com/index/
 админка https://dep.ru.com/admin/
 
